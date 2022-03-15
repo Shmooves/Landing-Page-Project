@@ -82,15 +82,29 @@ button {
     color:#1f2937;
 }
 
-.quote {
+.nicequote {
     font-size:36px;
     color:#1F2937;
     font-style:italic;
+    display:flex;
+    text-align:center;
+    justify-content: center;
+    align-content:center;
+    padding:20px;
+    margin:40px;
+    
 }
 
 .quoter {
     color:#1F2937;
     font-weight:bold;
+    display:flex;
+    align-items:baseline;
+    justify-content:right;
+    padding:0 32px;
+    margin-bottom:30px; 
+    margin-right:200px;
+    
 }
 
 .container2 {
@@ -152,4 +166,24 @@ img {
 
 .sampletext {
     margin-bottom:20px;
+}
+
+.content {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    gap:20px;  
+    margin-bottom:50px;
+}
+
+.infotitle {
+    text-align:center;
+    margin-top:60px;
+    margin-bottom:50px;
+}
+
+.info img {
+    width:300px;
+    length:50px;
+    margin-bottom:16px;
 }
