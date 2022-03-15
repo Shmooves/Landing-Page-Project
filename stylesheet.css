@@ -1,11 +1,24 @@
+body {
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    justify-content: center;
+    flex:1;
+    
+}
+
+
 .header {
     background-color:#1F2937;
+    flex:1;
 
+    
 }
 
 .logo {
     font-size:24px;
     color:#F9FAF8;
+    font-weight:bold;
 
 }
 
@@ -30,6 +43,10 @@
 
 ul {
     list-style-type:none;
+    display:flex;
+    gap:8px;
+    margin:0px;
+    padding:0px;
 
 }
 
@@ -54,6 +71,9 @@ button {
     background-color: #3882F6;
     color:white;
     padding:8px 16px;
+    
+    
+    
      
 }
 .infotitle {
@@ -84,4 +104,52 @@ button {
 
 .footer {
     color:white;
+}
+
+.verytop {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:80px;
+    padding:16px;
+    align-items:center;
+    gap:16px;
+    
+
+}
+
+.topright {
+    gap:20px;
+}
+
+.layout {
+   display:flex;
+   justify-content: space-evenly;
+   padding:160px;
+    
+  
+
+}
+
+img {
+    background-color:grey;
+    width:400px;
+    height:300px;
+    
+    
+}
+
+.leftsidey {
+   margin-left:142px;
+   margin-bottom:30px;
+   gap:20px;
+   flex-wrap:wrap;
+   width:400px
+}
+
+.boldtext1 {
+    margin-bottom:20px;
+}
+
+.sampletext {
+    margin-bottom:20px;
 }
