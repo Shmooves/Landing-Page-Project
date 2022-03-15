@@ -34,11 +34,17 @@ body {
 
 .container {
     background-color:white;
+    display:flex;
+    padding:150px;
+    justify-content: center;
+    align-items:center;
 
 }
 
 .footer {
-    background-color:#1F2937
+    background-color:#1F2937;
+    text-align:center;
+    padding:40px;
 }
 
 ul {
@@ -71,10 +77,9 @@ button {
     background-color: #3882F6;
     color:white;
     padding:8px 16px;
-    
-    
-    
-     
+    border-radius:8px;
+    border:1px solid white;
+    display:flex;
 }
 .infotitle {
     font-size:36px;
@@ -107,8 +112,17 @@ button {
     
 }
 
-.container2 {
+.bluecontainer {
     background-color:#3882F6;
+    color:white;
+    padding:30px;
+    border-radius:8px; 
+    width:1000px;
+    height:100px;
+    justify-content: space-evenly;
+    display:flex;
+    align-items:center;
+    
 }
 
 .suptitle {
@@ -186,4 +200,14 @@ img {
     width:300px;
     length:50px;
     margin-bottom:16px;
+    border-radius: 4px;
+    border:6px solid #3882F6;
 }
+
+.suptitle {
+    margin-bottom:8px;
+}
+
+
+
+
